@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu Landing Page</title>
+  <!-- Agrega el enlace al archivo CSS de Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Agrega tu propio archivo CSS para estilos personalizados -->
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .informacion-desplegada {
+      display: none;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Barra de Navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Inicio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#seccion1">Medio ambiente</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#seccion2">Consecuencias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#seccion3">Conciencia Ambiental</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#seccion4">Sostenibilidad</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección 1 - Medio Ambiente -->
+  <section id="seccion1" class="bg-light text-center py-5">
+    <div class="container">
+      <h1>Impacto humano en el medio ambiente</h1>
+      <p>Estamos batiendo un triste récord inédito hasta ahora en la historia de la humanidad. El ritmo al que desaparecen animales y plantas es hoy  miles de veces
+        superior al de los últimos 500 millones de años y, si no lo remediamos, dentro de un siglo habremos acabado con el 67% de la fauna en peligro de extinción y un 99,9% 
+        estará gravemente amenzada, según pronostica la Unión Internacional para la Conseración de la Naturaleza (UICN).
+      </p>
+      <img src="images/imagen1.jpg" alt="Imagen 1">
+
+      <!-- Botón y contenido desplegable -->
+      <button onclick="desplegarInformacion('informacionDesplegada1')">Impacto humano</button>
+      <div id="informacionDesplegada1" class="informacion-desplegada">
+        <p> <b> Cambio Climático: </b> Las emisiones de gases de efecto invernadero, principalmente derivados de la quema de combustibles fósiles, contribuyen al calentamiento global y al cambio climático. Esto provoca efectos como el aumento de las temperaturas, eventos climáticos extremos y cambios en los patrones climáticos.</p>
+
+<p> <b>Contaminación del Aire:</b> Las actividades industriales, la quema de combustibles fósiles y otras emisiones liberan contaminantes que afectan la calidad del aire. Esto puede tener consecuencias negativas para la salud humana y la salud de los ecosistemas.</p>
+
+  <p>  <b>Contaminación del Agua: </b>  El vertido de desechos industriales, agrícolas y domésticos en cuerpos de agua contamina los recursos hídricos. La contaminación del agua tiene impactos perjudiciales en la vida acuática y puede afectar la salud humana.</p>
+
+    <p> <b>Deforestación:</b>  La tala de bosques para la obtención de madera, la expansión agrícola y otros fines conduce a la pérdida de hábitats naturales. La deforestación afecta negativamente la biodiversidad y contribuye al cambio climático.</p>
+
+      <p> <b>Pérdida de Biodiversidad:</b>  La destrucción de hábitats naturales, la contaminación y otras actividades humanas han llevado a una disminución significativa en la diversidad de especies. La pérdida de biodiversidad puede tener consecuencias graves para los ecosistemas.</p>
+
+        <p>  <b>Agotamiento de Recursos Naturales:</b>  La sobreexplotación de recursos como la pesca excesiva, la minería descontrolada y la extracción excesiva de agua agotan los recursos naturales, contribuyendo a la degradación ambiental.</p>
+
+          <p>   <b>Generación de Residuos:</b>  La producción masiva de residuos, especialmente plásticos y desechos electrónicos, causa contaminación en tierra y agua. La gestión inadecuada de residuos contribuye a la degradación del medio ambiente.</p>
+
+            <p>    <b>Urbanización y Alteración de Ecosistemas:</b>  La expansión urbana y otras actividades humanas alteran significativamente los ecosistemas terrestres y marinos, afectando la flora y fauna nativa.</p>
+
+        
+        <!-- Puedes agregar más contenido aquí -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 2 - Consecuencias -->
+  <section id="seccion2" class="bg-dark text-white text-center py-5">
+    <div class="container">
+      <h1>Consecuencias de las acciones del ser humano en el medio ambiente </h1>
+      <p>Las acciones del ser humano han tenido diversas consecuencias en el medio ambiente, muchas de las cuales son negativas y han llevado a problemas ambientales significativos.</p>
+      <img src="images/imagen2.jpg" alt="Imagen 2">
+
+      <!-- Botón y contenido desplegable -->
+      <button onclick="desplegarInformacion('informacionDesplegada2')">Consecuencias</button>
+      <div id="informacionDesplegada2" class="informacion-desplegada">
+        <p> 1. <b>Contaminación del aire: </b> Las emisiones de gases contaminantes derivados de la quema de combustibles fósiles, la industria y otras actividades humanas contribuyen a la contaminación atmosférica. Esto puede dar lugar a problemas de salud respiratoria, alteraciones en los ecosistemas y contribuir al cambio climático.  </p>
+
+      <p> 2. <b>Contaminación del agua: </b> Las descargas de desechos industriales, agrícolas y domésticos en cuerpos de agua pueden contaminar el agua y afectar a los ecosistemas acuáticos. La contaminación del agua también tiene implicaciones para la salud humana, ya que el agua contaminada puede transmitir enfermedades. </p> 
+        
+      <p> 3. <b>Deforestación: </b> La tala de bosques para la obtención de madera, la expansión agrícola y otros fines ha llevado a la pérdida masiva de hábitats naturales. Esto afecta negativamente la biodiversidad y contribuye al cambio climático, ya que los bosques desempeñan un papel crucial en la absorción de dióxido de carbono. </p> 
+        
+      <p> 4. <b> Pérdida de biodiversidad: </b> La destrucción de hábitats naturales, la contaminación y otras actividades humanas han llevado a una disminución significativa en la diversidad de especies. La pérdida de biodiversidad puede tener consecuencias graves para los ecosistemas, afectando su estabilidad y capacidad para proporcionar servicios ecológicos. </p> 
+        
+      <p> 5. <b> Cambio climático: </b> Las emisiones de gases de efecto invernadero, principalmente dióxido de carbono (CO2) derivado de la quema de combustibles fósiles, están contribuyendo al calentamiento global y al cambio climático. Esto tiene consecuencias como el aumento de las temperaturas, eventos climáticos extremos, cambios en los patrones de precipitación y el aumento del nivel del mar. </p> 
+        
+      <p> 6. <b> Agotamiento de recursos naturales: </b> El uso insostenible de recursos naturales, como la sobreexplotación de pesquerías, la minería descontrolada y la extracción excesiva de agua, agota los recursos del planeta y contribuye a la degradación ambiental. </p> 
+        
+      <p> 7. <b> Generación de residuos: </b> La producción masiva de residuos, especialmente plásticos y desechos electrónicos, causa contaminación en tierra y agua. La gestión inadecuada de residuos contribuye a la degradación del medio ambiente y amenaza la salud humana. </p> 
+        
+      <p> 8. <b> Impacto en los ecosistemas terrestres y marinos: </b> La urbanización, la agricultura intensiva y otras actividades humanas han alterado significativamente los ecosistemas terrestres y marinos, afectando la flora y fauna nativa y su capacidad para funcionar de manera equilibrada. </p> 
+        
+      <p> Estas consecuencias subrayan la importancia de adoptar prácticas más sostenibles y tomar medidas para mitigar el impacto negativo de las actividades humanas en el medio ambiente. La conciencia ambiental y la adopción de prácticas respetuosas con el entorno son fundamentales para abordar estos desafíos. </p> 
+      
+        <!-- Puedes agregar más contenido aquí -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 3 - Conciencia ambiental -->
+  <section id="seccion3" class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1>¿Qué es la conciencia ambiental y por qué debemos tenerla?</h1>
+      <p>La conciencia ambiental es tener la certeza de que los recursos naturales deben cuidarse, protegerse y usarse de una manera responsable y racional, con propósito
+        de brindar bienestar al planeta que habitamos. También es considerada una filosofía de vida que se preocupa por el medio ambiente y lo protege, con el fin de conservarlo
+        y así garantizar su equilibrio en el presente futuro, tal y como lo menciona la agencia de la ONU para los refugiados. En su esencia, la conciencia ambiental reúne educación, 
+        valores ecológicos y la construcción de pensamientos relacionados con el cuidado del medio ambiente. Esto se traduce en acciones conocimientos y experienciads que fortalecen 
+        nuestra relación con los ecosistemas.</p>
+      <img src="images/imagen3.1.jpg" alt="Imagen 3">
+
+      <!-- Botón y contenido desplegable -->
+      <button onclick="desplegarInformacion('informacionDesplegada3')">Razones</button>
+      <div id="informacionDesplegada3" class="informacion-desplegada">
+        <p> <b>Sostenibilidad: </b> La conciencia ambiental promueve la adopción de prácticas sostenibles que permiten satisfacer las necesidades presentes sin comprometer la capacidad de las generaciones futuras para satisfacer sus propias necesidades. Esto incluye la gestión responsable de recursos naturales y la reducción de la huella ecológica.</p>
+
+        <p> <b>Preservación de la Biodiversidad:</b>  La conciencia ambiental contribuye a la conservación de la biodiversidad al comprender la importancia de los ecosistemas saludables y tomar medidas para proteger hábitats y especies en peligro de extinción.</p>
+
+          <p> <b>Prevención de la Contaminación:</b>  Con conciencia ambiental, se toman medidas para reducir la contaminación del aire, agua y suelo. Esto incluye la gestión adecuada de residuos, la reducción de emisiones contaminantes y la adopción de prácticas respetuosas con el entorno.</p>
+
+            <p> <b>Mitigación del Cambio Climático:</b>  La conciencia ambiental está relacionada con la comprensión de los efectos del cambio climático y la adopción de comportamientos que ayuden a reducir las emisiones de gases de efecto invernadero. Esto puede incluir la promoción de energías renovables y la reducción del consumo de combustibles fósiles.</p>
+
+              <p> <b> Salud Humana:</b> Un entorno natural saludable tiene un impacto positivo en la salud humana. La conciencia ambiental fomenta la conexión entre un entorno limpio y la prevención de enfermedades relacionadas con la contaminación y la degradación ambiental.</p>
+
+                <p> <b>Ética y Responsabilidad:</b> La conciencia ambiental implica una comprensión ética de nuestra relación con el medio ambiente y la asunción de responsabilidad por nuestras acciones. Esto se traduce en decisiones informadas y comportamientos que buscan el bienestar del planeta.</p>
+
+               <p> <b>Educación y Conciencia Pública:</b> Promover la conciencia ambiental a través de la educación y la sensibilización pública contribuye a la formación de una sociedad más informada y comprometida con la protección del medio ambiente.</p>
+             <p> Existen diferentes tipos de educación, pero aprovechando que el día 26 de enero se celebra el “Día Mundial de la Educación Ambiental”, dedicaremos este blog a ese tipo de enseñanza.</p> 
+             <p><b>Entre los valores que intentan inculcar, podemos mencionar los siguientes:</b></p>
+             <p> 1. La capacidad de amar, valorar, cuidar y conservar este planeta como a la vida misma.</p>
+              <p> 2. Aprecio y respeto del entorno, así como el cumplimiento de las leyes que regulan los impactos negativos del ser humano en la naturaleza.</p>
+                <p> 3. Ser responsables de nuestros comportamientos, conductas y hábitos de consumo, los cuales deben estar encaminados al respeto y protección del medio ambiente.</p>
+                  <p> 4. Conservar, es decir, cuidar y valorar los recursos naturales para las futuras generaciones.</p>
+                    <p>  5. Promover una convivencia equilibrada y armoniosa entre el ser humano y la naturaleza.</p>
+                      <p> 6. Sensibilizar en torno a los problemas ambientales, así como incentivar acciones voluntarias para su mejoramiento.</p>
+                        <p> 7. Participación, colaboración y ayuda mediante programas o campañas ambientales.</p>
+               <!-- Puedes agregar más contenido aquí -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 4 - Sostenibilidad -->
+  <section id="seccion4" class="bg-info text-dark text-center py-5">
+    <div class="container">
+      <h1>¿Cómo podemos contribuir con la Sostenibilidad? </h1>
+      <p>Las soluciones a los problemas que afectan el desarrollo sostenible no debe limitarse únicamente a las políticas estrategias y estándares diseñados 
+        y establecidas empresas. Aunque parezcan insignificantes, nuestras acciones individuales pueden contribuir considerablemnete y de manera positiva
+        en la sostenibilidad es preciso nuestro compromiso y concientización para lograr un desarrollo verdaderamente sostenible.
+      </p> 
+      <img src="images/imagen4.jpg">
+
+      <!-- Botón y contenido desplegable -->
+      <button onclick="desplegarInformacion('informacionDesplegada4')">Acciones</button>
+      <div id="informacionDesplegada4" class="informacion-desplegada">
+        <p> 1.<b> Reducir (no malgastar recursos). </b> </p> 
+      <p> * Controlar el consumo de agua en la higiene riego y piscinas.   </p>  
+      <p> * Incorporar dispositivos de ahorro del agua en grifos y cisternas. </p>
+      <p> 2. <b> Reutilizar todo lo que se pueda.</b></p>
+      <p> * Reutilizar el papel.</p>
+      <p> * Imprimimir por ejemplo, sobre papel ya utilizado por una cara.</p>
+      <p> * Reutilizar el agua: utilizar el agua de lavado de frutas y verduras y el de la cocción de huevos (enriquecida con calcio) para regar plantas.</p>
+        <!-- Puedes agregar más contenido aquí -->
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function desplegarInformacion(id) {
+      var informacion = document.getElementById(id);
+      if (informacion.style.display === "none") {
+        informacion.style.display = "block";
+      } else {
+        informacion.style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
